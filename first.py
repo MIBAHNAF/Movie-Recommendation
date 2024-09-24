@@ -5,10 +5,10 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-data_path_1 ='E:\Movie Recommnedation\ml-25m\movies.csv'
+data_path_1 ='location of the dataset movies.csv'
 movies = pd.read_csv(data_path_1)
 
-data_path_2 = "E:\Movie Recommnedation\ml-25m\datings.csv"
+data_path_2 = "Location of the dataset nambed datings.csv"
 ratings = pd.read_csv(data_path_2)
 
 def clean_title(title):
